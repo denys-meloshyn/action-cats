@@ -1,4 +1,4 @@
-name: 'Action Cats'
+name: 'Action Cats 2'
 description: 'Posts a cat gif on every PR as a reward for pushing code.'
 author: 'Ruairidh Wynne-McHardy'
 branding:
@@ -13,4 +13,4 @@ inputs:
     required: true
 runs:
   using: 'node12'
-  main: 'dist/index.js'
+  main: 'src/main.js'

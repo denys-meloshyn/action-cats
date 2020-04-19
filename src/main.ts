@@ -8,8 +8,8 @@ async function run(): Promise<void> {
       headers: {
         "api_key":core.getInput('GIPHY_TOKEN')
       }
-      // body: JSON.stringify({})
     })
+    
     const body = await tmp.json();
     const message = `![Cat Gif](${body["data"]["image_original_url"]})`
     const githubToken = core.getInput('GITHUB_TOKEN')

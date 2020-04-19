@@ -61,7 +61,6 @@ function run() {
                             headers: {
                                 "api_key": core.getInput('GIPHY_TOKEN')
                             }
-                            // body: JSON.stringify({})
                         })];
                 case 1:
                     tmp = _a.sent();
